@@ -10,11 +10,11 @@ export default function Navbar() {
     };
 
     return (
-        <nav className="bg-[url('/cover.png')] bg-cover bg-center bg-no-repeat shadow-lg dark:border-slate-800 transition-colors duration-300">
+        <nav className="bg-[url('/background/cover.png')] bg-cover bg-center bg-no-repeat shadow-lg dark:border-slate-800 transition-colors duration-300 z-50">
             <div className="w-full mx-auto px-4 lg:px-10 2xl:px-14 py-2 lg:py-3 2xl:py-5 flex items-center justify-between">
                 <div className="cursor-pointer flex items-center shrink-0 gap-2">
                     <div className="w-10 lg:w-15 2xl:w-20">
-                        <img src={'/logo dtkj.png'} alt="dtkj" />
+                        <img src={'/logo/logo-dtkj.png'} alt="dtkj" />
                     </div>
                     <div className="flex flex-col">
                         <span className="font-bold text-xs lg:text-lg 2xl:text-2xl text-white">Dewan Transportasi Kota Jakarta</span>
@@ -73,11 +73,6 @@ export default function Navbar() {
                                 </a>
                             </div>
                         </div>
-                    </div>
-                    <div className="cursor-pointer hover:text-amber-400 transition-colors">
-                        <button className="h-full flex items-center border-transparent">
-                            Beranda
-                        </button>
                     </div>
                     <div className="cursor-pointer hover:text-amber-400 transition-colors">
                         <button className="h-full flex items-center border-transparent">
