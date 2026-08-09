@@ -11,18 +11,18 @@ export default function Navbar() {
 
     return (
         <nav className="bg-[url('/background/cover.png')] bg-cover bg-center bg-no-repeat shadow-lg dark:border-slate-800 transition-colors duration-300 z-50">
-            <div className="w-full mx-auto px-4 lg:px-10 2xl:px-14 py-2 lg:py-3 2xl:py-5 flex items-center justify-between">
+            <div className="w-full mx-auto px-4 lg:px-10 2xl:px-14 py-2 lg:py-0.5 2xl:py-2 flex items-center justify-between">
                 <div className="cursor-pointer flex items-center shrink-0 gap-2">
-                    <div className="w-10 lg:w-15 2xl:w-20">
+                    <div className="w-8 lg:w-13 2xl:w-16">
                         <img src={'/logo/logo-dtkj.png'} alt="dtkj" />
                     </div>
                     <div className="flex flex-col">
-                        <span className="font-bold text-xs lg:text-lg 2xl:text-2xl text-white">Dewan Transportasi Kota Jakarta</span>
-                        <span className="text-[10px] lg:text-sm 2xl:text-lg text-white"><i>Jakarta Transportation Council</i></span>
+                        <span className="font-bold text-[10px] lg:text-base 2xl:text-xl text-white">Dewan Transportasi Kota Jakarta</span>
+                        <span className="text-[8px] lg:text-xs 2xl:text-base text-white"><i>Jakarta Transportation Council</i></span>
                     </div>
                 </div>
 
-                <div className="hidden md:flex items-center sm:gap-4 lg:gap-8 2xl:gap-12 font-semibold sm:text-xs lg:text-base 2xl:text-[21px] text-white h-16">
+                <div className="hidden md:flex items-center sm:gap-4 lg:gap-8 2xl:gap-10 font-semibold sm:text-xs lg:text-sm 2xl:text-xl text-white h-17">
                     <div className="cursor-pointer hover:text-amber-400 transition-colors">
                         <button className="h-full flex items-center border-transparent">
                             Beranda
